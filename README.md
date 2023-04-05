@@ -69,12 +69,17 @@ Step 10: Predictions & Saving model using pickel library.
 
 # Insights from EDA impacting business:
 
-> The most selling and crowded store type is A.
-> More stores are opened during School holidays than State holidays.
-> Mondays have most sales since most of the Sundays are closed.
-> Promo 1 has given positive yields where as Promo 2 is a disaster.
-> Store type b has higher sales and customers per store than other store types.
-> Assortment b is available only at store type b and it has more sales and customers than any other assortment.
+The most selling and crowded store type is A.
+
+More stores are opened during School holidays than State holidays.
+
+Mondays have most sales since most of the Sundays are closed.
+
+Promo 1 has given positive yields where as Promo 2 is a disaster.
+
+Store type b has higher sales and customers per store than other store types.
+
+Assortment b is available only at store type b and it has more sales and customers than any other assortment.
 
 # Suggestions provided to increase the Sales:
 
