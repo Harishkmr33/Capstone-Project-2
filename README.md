@@ -120,30 +120,30 @@ Promo 2 should be discontinued and Promo 1 can be extended futher as it shows be
 
 Very few stores are opened during State Holidays, so it suggested to open a subsequent amount of stores to serve in emergency purposes.
 
-# ML Model selected for deployment: XG Boost
 
-XGBoost is an efficient and easy to use algorithm which delivers high performance and accuracy as compared to other algorithms. XGBoost is also known as regularized version of GBM.
+
+# ML Model selected for deployment: Light GBM
+
+Light GBM is a fast, distributed, high-performance gradient boosting framework that uses a tree-based learning algorithm. It also supports GPU learning and is thus widely used for data science application development.
 
 # Advantages:
 
-High Accuracy: XGBoost Regressor is known for its high accuracy and performance compared to other machine learning algorithms.
+Faster training speed and higher efficiency: Light GBM uses a histogram-based algorithm i.e it buckets continuous feature values into discrete bins which fasten the training procedure.
 
-Regularization: XGBoost has in-built L1 (Lasso Regression) and L2 (Ridge Regression) regularization which prevents the model from overfitting.
+Lower memory usage: Replaces continuous values to discrete bins which results in lower memory usage.
 
-Parallel Processing: XGBoost utilizes the power of parallel processing and that is why it is much faster than GBM. It uses multiple CPU cores to execute the model.
+Better accuracy: It produces much more complex trees by following **leaf wise split approach** rather than a **level-wise approach** which is the main factor in achieving higher accuracy.
 
-Handling Missing Values: XGBoost has an in-built capability to handle missing values.
+Good Compatibility with Large Datasets: It is capable of performing equally well with large datasets with a significantly less  training time as compared to XGBoost.
 
-Cross Validation: XGBoost allows user to run a cross-validation at each iteration of the boosting process and thus it is easy to get the exact optimum number of boosting iterations in a single run.
 
 # Limitations:
 
-Complexity: XGBoost Regressor has a lot of hyperparameters to tune, which can make it difficult to optimize the model for a specific problem.
+Complexity: Light GBM split the tree leaf-wise which can lead to overfitting as it produces much complex trees.
 
-Overfitting: If not tuned properly, XGBoost Regressor can overfit the training data, which can lead to poor generalization on the test data.
+Overfitting: Light GBM is sensitive to overfitting and thus can easily overfit small dataset.
 
-Training time: Training time is pretty high for larger dataset, if compared against lightgbm.
 
 # Suggestion:
 
-When we are dealing with huge dataset & time is a constraint, also accuracy can be compromised a bit then we can prefer opting to Light GBM Model.
+When we are dealing with huge dataset & time is a constraint use Light GBM Model else when dataset is small than XGBoost can provide better results.
